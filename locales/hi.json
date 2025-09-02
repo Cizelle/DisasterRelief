@@ -1,0 +1,22 @@
+{
+  "selectLanguage": "भाषा चुनें",
+  "downloadMap": "{{state}} का नक्शा डाउनलोड करें",
+  "downloading": "नक्शे की फ़ाइलें डाउनलोड हो रही हैं...",
+  "downloadComplete": "डाउनलोड पूरा हुआ",
+  "downloadReady": "{{state}} का नक्शा तैयार है!",
+  "downloadFailed": "डाउनलोड विफल हुआ",
+  "downloadError": "फ़ाइलें डाउनलोड नहीं हो सकीं।",
+  "shelterDetails": "आश्रय का विवरण",
+  "states": "राज्य",
+  "unionTerritories": "केंद्र शासित प्रदेश",
+  "languages": {
+    "en": "अंग्रेज़ी",
+    "hi": "हिंदी"
+  },
+  "stateList": {
+    "Andhra Pradesh": "आंध्र प्रदेश",
+    "Assam": "असम",
+    "Madhya Pradesh": "मध्य प्रदेश",
+    "Rajasthan": "राजस्थान"
+  }
+}

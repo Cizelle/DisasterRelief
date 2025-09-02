@@ -1,0 +1,22 @@
+{
+  "selectLanguage": "Select Language",
+  "downloadMap": "Download {{state}} Map",
+  "downloading": "Downloading map files...",
+  "downloadComplete": "Download Complete",
+  "downloadReady": "{{state}} map is ready!",
+  "downloadFailed": "Download Failed",
+  "downloadError": "Could not download files.",
+  "shelterDetails": "Shelter Details",
+  "states": "States",
+  "unionTerritories": "Union Territories",
+  "languages": {
+    "en": "English",
+    "hi": "Hindi"
+  },
+  "stateList": {
+    "Andhra Pradesh": "Andhra Pradesh",
+    "Assam": "Assam",
+    "Madhya Pradesh": "Madhya Pradesh",
+    "Rajasthan": "Rajasthan"
+  }
+}
