@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-import React, { useState } from 'react';
+import React from 'react';
 import { View, Text, Button, StyleSheet, Alert, ScrollView } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import './i18n';
@@ -14,7 +14,39 @@ const STATES_DATA: StateData[] = [
   { name: 'Assam' },
   { name: 'Madhya Pradesh' },
   { name: 'Rajasthan' },
-  // Add all other states and UTs here
+  { name: 'Arunachal Pradesh' },
+  { name: 'Bihar' },
+  { name: 'Chhattisgarh' },
+  { name: 'Goa' },
+  { name: 'Gujarat' },
+  { name: 'Haryana' },
+  { name: 'Himachal Pradesh' },
+  { name: 'Jharkhand' },
+  { name: 'Karnataka' },
+  { name: 'Kerala' },
+  { name: 'Maharashtra' },
+  { name: 'Manipur' },
+  { name: 'Meghalaya' },
+  { name: 'Mizoram' },
+  { name: 'Nagaland' },
+  { name: 'Odisha' },
+  { name: 'Punjab' },
+  { name: 'Sikkim' },
+  { name: 'Tamil Nadu' },
+  { name: 'Telangana' },
+  { name: 'Tripura' },
+  { name: 'Uttar Pradesh' },
+  { name: 'Uttarakhand' },
+  { name: 'West Bengal' },
+  // Union Territories
+  { name: 'Andaman and Nicobar Islands' },
+  { name: 'Chandigarh' },
+  { name: 'Dadra and Nagar Haveli and Daman and Diu' },
+  { name: 'Delhi' },
+  { name: 'Jammu and Kashmir' },
+  { name: 'Ladakh' },
+  { name: 'Lakshadweep' },
+  { name: 'Puducherry' }
 ];
 
 const App = () => {
