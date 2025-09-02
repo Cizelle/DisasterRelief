@@ -19,3 +19,22 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
+
+// Add this block below the one above
+allprojects {
+    repositories {
+        mavenCentral()
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                // Do not change the username to your Mapbox username.
+                username = 'mapbox'
+                // Paste your Mapbox access token as the password
+                password = "pk.eyJ1Ijoicm9oaXRrb2xsYSIsImEiOiJjbDF2ajF4d3AwMGNvM2RwYXFmbG44Z3huIn0.H7rC0mC_P9NqU97n_wVw8w"
+            }
+        }
+    }
+}
